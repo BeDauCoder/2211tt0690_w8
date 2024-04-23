@@ -1,4 +1,34 @@
+.btn_number{
+    background-color: aqua;
+}
+
+.btn_number:hover{
+    background-color: yellow;
+    color: lightcoral;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#calculator{
+    width: 400px;
+    border: 2px solid red;
+}
+
 #keyboard{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+display: grid;
+grid-template-columns: auto auto auto auto;
+}
+#func_match{
+    height: 40px;
+    text-align: end;
+    margin-right: 6px;
+}
+#result{
+    text-align: end;
+    margin-right: 6px;
+}
+#television{
+    width: 400px;
 }
