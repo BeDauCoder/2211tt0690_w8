@@ -1,3 +1,10 @@
-let list_btns = document.querySelectorAll('.btn_number')
-let func_match = document.getElementById('func_match')
+let list_btn_number = document.querySelectorAll('.btn_number')
 let result = document.getElementById('result')
+let func_match = document.getElementById('func_match')
+
+function them(n){
+    if(result.textContent == 0){
+        func_match.textContent == ""
+    }
+    func_match.textContent += n
+}
