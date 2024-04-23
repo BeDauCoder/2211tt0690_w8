@@ -8,3 +8,12 @@ function them(n){
     }
     func_match.textContent += n
 }
+
+function clear_c(){
+    func_match.textContent = ""
+    result.textContent = 0
+}
+function tinh(){
+    
+}
+
